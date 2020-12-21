@@ -286,7 +286,7 @@ def main():
     ''' Main function '''
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('-data', type=str, default='data/final_gcn_data_1')
+    parser.add_argument('-data', type=str, default='data/final_gcn_data')
 
     parser.add_argument('-epoch', type=int, default=20)
     parser.add_argument('-batch_size', type=int, default=64)
