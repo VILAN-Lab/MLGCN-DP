@@ -210,7 +210,7 @@ def main():
     parser.add_argument('-test_src',  type=str, default='data/test/test.post')
     parser.add_argument('-test_tgt',  type=str, default='data/test/test.response')
 
-    parser.add_argument('-save_data', type=str, default='data/final_gcn_data_1')
+    parser.add_argument('-save_data', type=str, default='data/final_gcn_data')
     #parser.add_argument('-max_len', '--max_word_seq_len', type=int, default=700)
     parser.add_argument('-max_src_len', '--max_src_word_seq_len', type=int, default=200)
     parser.add_argument('-max_tgt_len', '--max_tgt_word_seq_len', type=int, default=60)
