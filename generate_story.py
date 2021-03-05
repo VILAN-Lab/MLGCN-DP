@@ -81,7 +81,7 @@ def main():
                         help='Path to model .pt file')
     # parser.add_argument('-src', type=str, default='data/test/test.post',
     #                     help='Source sequence to decode (one line per sequence)')
-    parser.add_argument('-data', type=str, default='data/final_gcn_data_1',
+    parser.add_argument('-data', type=str, default='data/final_gcn_data',
                         help='Source sequence to decode (one line per sequence)')
     parser.add_argument('-output', default='story_generation/',
                         help="""Path to output the predictions (each line will
