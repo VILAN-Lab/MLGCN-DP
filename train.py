@@ -226,7 +226,7 @@ def train(model, training_data, validation_data, optimizer, device, opt, seed):
 
         print('[Info] Training performance will be written to file: {} and {}'.format(
             log_train_file, log_valid_file))
-        if not os.path.exists(opt.log)
+        if not os.path.exists(opt.log):
             os.mkdir(opt.log)
         with open(log_train_file, 'w') as log_tf, open(log_valid_file, 'w') as log_vf:
             log_tf.write('epoch, loss,ppl, accuracy\n')
