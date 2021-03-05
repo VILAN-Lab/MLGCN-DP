@@ -259,7 +259,8 @@ def train(model, training_data, validation_data, optimizer, device, opt, seed):
             'model': model_state_dict,
             'settings': opt,
             'epoch': epoch_i}
-
+        if not os.path.exists(opt.save_model):
+            os.mkdir(opt.save_model)
         if opt.save_model:
             if opt.save_mode == 'all':
                 model_name = opt.save_model + str(seed) + '_%.3f.ckpt' % math.exp(min(valid_loss, 100))
