@@ -143,9 +143,11 @@ def main():
                         else:
                             new_pred.append(word)
                     pred_line = ' '.join([word for word in new_pred])
-                    f.write(pred_line.lower() + ' .\n')
+                    if pred_line[-1] == "!":
+                        f.write(pred_line.lower() + ' \n')
+                    else:
+                        f.write(pred_line.lower() + ' .\n')                    
     print('[Info] Finished.')
-
 
 
 if __name__ == "__main__":
