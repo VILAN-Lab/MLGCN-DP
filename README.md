@@ -1,4 +1,4 @@
-# MLGCN-DP for Story ending Generation
+# MLGCN-DP for Story Ending Generation
 
 ##### Code for paper "Story Ending Generation with Multi-Level Graph Convolutional Networks over Dependency Trees", AAAI 2021.
 
