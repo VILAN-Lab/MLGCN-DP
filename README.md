@@ -42,5 +42,5 @@ Then the output file will be save in directory of `story_generation/`
 
 ## PS
 
-When calculate the BLEU, please **uniform case** of *ref* and *hyp*
+When calculate the BLEU, please **uniform capitals and lower case letters** of *ref* and *hyp*
 
