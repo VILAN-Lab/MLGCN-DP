@@ -5,7 +5,7 @@
 ## Prerequisites
 
 - Python 3.6
-- PyTorch == 1.14.0
+- PyTorch == 1.4.0
 
 ## Quick start:
 
